@@ -43,13 +43,13 @@ dependencies:
     version: 10.0.0
   vite-plugin-pages:
     specifier: ^0.32.2
-    version: 0.32.2(vite@5.2.0)(vue-router@4.3.2)
+    version: 0.32.2(vite@5.2.0)(vue-router@4.6.3)
   vue:
     specifier: ^3.4.21
     version: 3.4.21(typescript@5.2.2)
   vue-router:
-    specifier: '4'
-    version: 4.3.2(vue@3.4.21)
+    specifier: 4.6.3
+    version: 4.6.3(vue@3.4.21)
   vue3-emoji-picker:
     specifier: ^1.1.8
     version: 1.1.8(typescript@5.2.2)
@@ -938,6 +938,10 @@ packages:
 
   /@vue/devtools-api@6.6.2:
     resolution: {integrity: sha512-134clD8u7cBBXdmBbXI282gHGF7T/eAbD/G7mAK2llQF62IbI4ny28IVamZVMoJSvfImC2Xxnj732hXkJvUj6g==}
+    dev: false
+
+  /@vue/devtools-api@6.6.4:
+    resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
     dev: false
 
   /@vue/language-core@2.0.6(typescript@5.2.2):
@@ -3975,7 +3979,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-plugin-pages@0.32.2(vite@5.2.0)(vue-router@4.3.2):
+  /vite-plugin-pages@0.32.2(vite@5.2.0)(vue-router@4.6.3):
     resolution: {integrity: sha512-wX4lRlylcTggwHUH7bV1SVJpQMz4ZUkbzzAbbBBH5M7c/9Yx5rAqrjYELIca6vLCoCpSd+r6/WI7KnvRK/Drcg==}
     peerDependencies:
       '@solidjs/router': '*'
@@ -4002,7 +4006,7 @@ packages:
       local-pkg: 0.5.0
       picocolors: 1.0.1
       vite: 5.2.0(@types/node@20.14.0)
-      vue-router: 4.3.2(vue@3.4.21)
+      vue-router: 4.6.3(vue@3.4.21)
       yaml: 2.4.2
     transitivePeerDependencies:
       - supports-color
@@ -4086,12 +4090,12 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router@4.3.2(vue@3.4.21):
-    resolution: {integrity: sha512-hKQJ1vDAZ5LVkKEnHhmm1f9pMiWIBNGF5AwU67PdH7TyXCj/a4hTccuUuYCAMgJK6rO/NVYtQIEN3yL8CECa7Q==}
+  /vue-router@4.6.3(vue@3.4.21):
+    resolution: {integrity: sha512-ARBedLm9YlbvQomnmq91Os7ck6efydTSpRP3nuOKCvgJOHNrhRoJDSKtee8kcL1Vf7nz6U+PMBL+hTvR3bTVQg==}
     peerDependencies:
-      vue: ^3.2.0
+      vue: ^3.5.0
     dependencies:
-      '@vue/devtools-api': 6.6.2
+      '@vue/devtools-api': 6.6.4
       vue: 3.4.21(typescript@5.2.2)
     dev: false
 
